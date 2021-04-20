@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node src/index.jsx",
+    "ssr": "node server/index.js",
     "build": "webpack",
     "serve": "webpack serve"
   },
@@ -20,9 +21,12 @@
   },
   "homepage": "https://github.com/Arem58/Lab10-Calculadora#readme",
   "dependencies": {
+    "@babel/register": "^7.13.14",
     "babel-loader": "^8.2.2",
     "bootstrap": "^5.0.0-beta3",
     "eslint-loader": "^4.0.2",
+    "express": "^4.17.1",
+    "ignore-styles": "^5.0.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
@@ -43,6 +47,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "file-loader": "^6.2.0",
     "sass": "^1.32.10",
     "sass-loader": "^11.0.1",
     "webpack": "^5.33.2"

@@ -21,6 +21,6 @@ module.exports = {
     semi: ['error', 'never'],
   },
   globals: {
-    document: 'readonly',
+    document: 'writable',
   },
 }

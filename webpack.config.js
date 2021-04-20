@@ -7,7 +7,7 @@ module.exports = {
         use: ['babel-loader', 'eslint-loader'],
       },
       {
-        test: /\.css$/,
+        test: /\.s?css$/,
         use: ['style-loader', 'css-loader'],
       },
       {
@@ -21,10 +21,18 @@ module.exports = {
           'sass-loader',
         ],
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx', '.css'],
+    extensions: ['*', '.js', '.jsx', '.css', '.png', '.jpg', '.jpeg', '.gif', '.svg', '.scss'],
   },
   devServer: {
     contentBase: './dist',
