@@ -1,55 +1,70 @@
 {
-  "name": "lab10-calculadora",
+  "name": "proyecto",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.jsx",
+    "start": "NODE_ENV=development webpack serve",
     "ssr": "node server/index.js",
-    "build": "webpack",
+    "build": "NODE_ENV=production webpack",
     "serve": "webpack serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arem58/Lab10-Calculadora.git"
+    "url": "git+https://github.com/Arem58/Proyecto-Web.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Arem58/Lab10-Calculadora/issues"
+    "url": "https://github.com/Arem58/Proyecto-Web.git/issues"
   },
-  "homepage": "https://github.com/Arem58/Lab10-Calculadora#readme",
+  "homepage": "https://github.com/Arem58/Proyecto-Web.git#readme",
   "dependencies": {
-    "@babel/register": "^7.13.14",
-    "babel-loader": "^8.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
+    "@babel/plugin-transform-arrow-functions": "^7.13.0",
+    "@babel/register": "^7.13.16",
+    "@babel/runtime": "^7.13.10",
     "bootstrap": "^5.0.0-beta3",
+    "copy-webpack-plugin": "^8.1.1",
     "eslint-loader": "^4.0.2",
     "express": "^4.17.1",
     "ignore-styles": "^5.0.1",
+    "node-sass": "^5.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
     "react-style-proptype": "^3.2.2",
-    "style-loader": "^2.0.0",
-    "webpack-cli": "^4.6.0",
-    "webpack-dev-server": "^3.11.2"
+    "style-loader": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-export-default-from": "^7.12.13",
+    "@babel/plugin-proposal-export-namespace-from": "^7.12.13",
+    "@babel/plugin-transform-async-to-generator": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.13.15",
     "@babel/preset-env": "^7.13.15",
     "@babel/preset-react": "^7.13.13",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.2.2",
     "eslint": "^7.24.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-import-resolver-webpack": "^0.13.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "react-router-dom": "^5.2.0",
     "sass": "^1.32.10",
     "sass-loader": "^11.0.1",
-    "webpack": "^5.33.2"
+    "webpack": "^5.34.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

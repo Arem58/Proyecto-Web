@@ -19,8 +19,20 @@ module.exports = {
   ],
   rules: {
     semi: ['error', 'never'],
+    'import/no-unresolved': [
+      2,
+      { caseSensitive: false },
+    ],
   },
   globals: {
-    document: 'writable',
+    document: 'readonly',
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        moduleDirectory: ['node_modules', 'src/'],
+      },
+    },
   },
 }

@@ -1,8 +1,12 @@
+const path = require('path')
+
+// ignore `.scss` imports
 require('ignore-styles')
 
+// transpile imports on the fly
 require('@babel/register')({
-  ignore: [/(node_module)/],
-  presets: ['@babel/preset-env', '@babel/preset-react'],
+  configFile: path.resolve(__dirname, '../.babelrc'),
 })
 
-require('./server')
+// import express server
+require('./express.jsx')
