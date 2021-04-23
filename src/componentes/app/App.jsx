@@ -1,10 +1,13 @@
 import React from 'react'
 import '../../styles/style.css'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Nav from '../Navbar/Navbar'
 
 const App = () => (
   <div>
-    Hola Puta
+    <header>
+      <Nav />
+    </header>
   </div>
 )
 
