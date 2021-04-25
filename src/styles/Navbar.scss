@@ -7,10 +7,16 @@
 }
 $blanco: #FFFFFF;
 $red: #d30000;
+$rojo2: #d30000;
+$linea: #CFD0D0;
+$gris: rgba(242, 242, 242, 0.9);
+$gris_linea: #CFD0D0;
+$white: #F5F9F8;
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font: inherit; 
+    vertical-align: baseline;
 }
 .Navbar{
     height: 45px;
@@ -20,34 +26,95 @@ $red: #d30000;
     align-items: center;
 }
 
+.nav-main-menu-esquina{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 0;
+    margin-left: auto;
+}
 .nav-main-menu{
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: (20px);
+    grid-template-columns: repeat(6, auto);
     margin: 0;
+    list-style: none;
 }
 .nav-links{
     display: flex;
     align-items: center;
-    border: noce;
+    border: none;
     font-size: 12px;
     font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
     color: black;
     text-decoration: none;
+    font-weight: bold;
+    padding: .75em 1em;
+}
+.tennocon{
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 12px;
+    font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .75em 1em;
+}
+.nav-links-right{
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 12px;
+    font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .75em 1em;
+}
+.nav-links-login{
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 12px;
+    font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .75em 1em;
 }
 .nav-links::after{
     content: url('../Recursos/dropDownIcon.png');
     display: block;
     height: 17px;
     width: 17px;
+    border: none;
     margin-left: 5px;
+}
+.nav-links-right::after{
+    content: url('../Recursos/dropDownIcon.png');
+    display: block;
+    height: 17px;
+    width: 17px;
+    margin-left: 5px;
+    border: none;
+}
+.nav-links-login::after{
+    content: url('../Recursos/dropDownIcon.png');
+    display: block;
+    height: 17px;
+    width: 17px;
+    border: none;
+    margin-left: 9px;
+    transform: rotateZ(-90deg);
 }
 .logo{
     height: 28px;
 }
 .logo-container{
     margin-left: 20px;
+    margin-right: 20px;
 }
 .paLa_esquina{
     word-spacing: 5px;
@@ -56,5 +123,69 @@ $red: #d30000;
     background-color: $red;
     color: $blanco;
     text-decoration: none;
-    padding: 14px 15px;
+    margin-left: 12px;
+    padding: 13.5px 15px;
+}
+.style_menu{
+    font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.size_b{
+    display: flex;
+    align-items: center;
+    word-spacing: 5px;
+}
+.dropMenu{
+    background-color: $gris;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    border-top: 3px solid $rojo2;
+    min-width: 9em;
+    z-index: 1;
+    left: 0;
+}
+.listaMenu{
+    font-weight: normal;
+    list-style: none;
+    border-top: 1px solid $gris_linea;
+    display: flex;
+}
+.listaMenu:first-child{
+    border-top: none;
+}
+.nav-links-mini{
+    border: none;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .75em 1em;
+    color: black;
+    width: 100%;
+    white-space: nowrap;
+}
+.nav-links-mini:hover{
+    background-color: $white;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+}
+.hoverNav:hover .sub-menu{
+    display: block;
+    text-decoration:none; 
+    color: black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    background: none;
+}
+a{
+    background-color: transparent;
 }

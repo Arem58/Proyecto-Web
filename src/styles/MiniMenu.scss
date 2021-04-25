@@ -1,0 +1,41 @@
+$rojo2: #d30000;
+$linea: #CFD0D0;
+$gris: rgba(242, 242, 242, 0.9);
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit; 
+    vertical-align: baseline;
+}
+.dropMenu{
+    position: absolute;
+    background-color: $gris;
+    box-shadow: none;
+    border-top: 3px solid $rojo2;
+    min-width: 12em;
+    z-index: 1;
+}
+.listaMenu{
+    font-weight: normal;
+    list-style: none;
+    border-top: 1px solid;
+}
+.nav-links-mini{
+    border: none;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    word-spacing: 2px;
+    text-decoration: none;
+    padding: .75em 1em;
+    color: black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    background: none;
+}
+a{
+    background-color: transparent;
+}

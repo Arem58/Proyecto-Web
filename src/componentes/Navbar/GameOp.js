@@ -1,21 +1,19 @@
+import Languaje from './MiniMenus/Languajes'
+
 const Menu = [
   {
     title: 'ENGLISH',
     url: '#',
-    cName: 'nav-links',
+    cName: 'nav-links-right',
+    Menu: Languaje,
     key: '1',
   },
   {
     title: 'LOGIN',
     url: '#',
-    cName: 'nav-links',
+    cName: 'nav-links-login',
+    Menu: null,
     key: '2',
-  },
-  {
-    title: 'PLAY FREE NOW',
-    url: '#',
-    cName: 'redCube',
-    key: '3',
   },
 ]
 
