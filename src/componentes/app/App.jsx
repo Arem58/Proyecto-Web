@@ -8,9 +8,9 @@ const App = () => (
     <header>
       <Nav />
     </header>
-    <div className="container_content">
+    <main className="container_content">
       <Slider />
-    </div>
+    </main>
   </div>
 )
 

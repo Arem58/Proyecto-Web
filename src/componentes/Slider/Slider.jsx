@@ -3,7 +3,6 @@ import '../../../node_modules/bootstrap/dist/js/bootstrap.min'
 import slide2 from '../../Recursos/slide2.jpg'
 import slide3 from '../../Recursos/slide3.jpg'
 import '../../../sass/custom.css'
-import '../../styles/style.css'
 
 const Slider = () => {
   const img1 = {
@@ -27,8 +26,27 @@ const Slider = () => {
     height: '100%',
   }
   const postionP = {
-    position: 'relative',
     backgroundColor: '#212121',
+  }
+  const slide2Pos = {
+    marginTop: '50px',
+    width: '500px',
+    zIndex: '3',
+  }
+  const pMar = {
+    marginBottom: '20px',
+    color: 'black',
+    fontSize: '16px',
+    lineHeight: '1.25em',
+    textShadowColor: 'rgba(0, 0, 0, 0.1)',
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 10,
+  }
+  const h3slide2 = {
+    marginBottom: '15px',
+    fontWeight: 'bold',
+    fontSize: '20px',
+    color: 'black',
   }
 
   return (
@@ -49,8 +67,18 @@ const Slider = () => {
           </video>
         </div>
         <div className="carousel-item" style={img1}>
-          <div style={{ style: "position: 'absolute'" }}>
-            hola
+          <div className="contaninerSize">
+            <a className="a-container" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
+              <div className="izquierda">
+                <div style={slide2Pos}>
+                  <h3 style={h3slide2}>8 Year Anniversary</h3>
+                  <p style={pMar}>Log in now to get the Rhino Dex Skin and more</p>
+                  <a className="redButon" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
         <div className="carousel-item" style={img2}>
