@@ -24,6 +24,9 @@ $white: #F5F9F8;
     background-color: $blanco;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 200;
+    margin-top: -45px;
 }
 
 .nav-main-menu-esquina{
@@ -124,7 +127,7 @@ $white: #F5F9F8;
     color: $blanco;
     text-decoration: none;
     margin-left: 12px;
-    padding: 13.5px 15px;
+    padding: 13.5px 16px;
 }
 .style_menu{
     font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
@@ -145,6 +148,7 @@ $white: #F5F9F8;
     min-width: 9em;
     z-index: 1;
     left: 0;
+    padding: 0;
 }
 .listaMenu{
     font-weight: normal;

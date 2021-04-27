@@ -1,13 +1,16 @@
 import React from 'react'
 import '../../styles/style.css'
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Nav from '../Navbar/Navbar'
+import Slider from '../Slider/Slider'
 
 const App = () => (
   <div>
     <header>
       <Nav />
     </header>
+    <div className="container_content">
+      <Slider />
+    </div>
   </div>
 )
 

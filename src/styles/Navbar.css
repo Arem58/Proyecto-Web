@@ -23,6 +23,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: fixed;
+  z-index: 200;
+  margin-top: -45px;
 }
 
 .nav-main-menu-esquina {
@@ -156,7 +159,7 @@
   color: #FFFFFF;
   text-decoration: none;
   margin-left: 12px;
-  padding: 13.5px 15px;
+  padding: 13.5px 16px;
 }
 
 .style_menu {
@@ -185,6 +188,7 @@
   min-width: 9em;
   z-index: 1;
   left: 0;
+  padding: 0;
 }
 
 .listaMenu {

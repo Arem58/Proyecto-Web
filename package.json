@@ -37,6 +37,7 @@
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
     "react-style-proptype": "^3.2.2",
+    "react-with-important-style": "^0.2.2",
     "style-loader": "^2.0.0"
   },
   "devDependencies": {
