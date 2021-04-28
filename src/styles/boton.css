@@ -29,6 +29,10 @@
   text-decoration: none;
 }
 
+.botonPc:hover {
+  color: #fff;
+}
+
 .botonPS {
   display: inline-block;
   border: 1px solid #666;

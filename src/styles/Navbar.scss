@@ -57,6 +57,9 @@ $white: #F5F9F8;
     font-weight: bold;
     padding: .75em 1em;
 }
+.nav-links:hover{
+    color: black;
+}
 .tennocon{
     display: flex;
     align-items: center;
@@ -67,6 +70,9 @@ $white: #F5F9F8;
     text-decoration: none;
     font-weight: bold;
     padding: .75em 1em;
+}
+.tennocon:hover{
+    color: black;
 }
 .nav-links-right{
     display: flex;
@@ -79,6 +85,9 @@ $white: #F5F9F8;
     font-weight: bold;
     padding: .75em 1em;
 }
+.nav-links-right:hover{
+    color: black;
+}
 .nav-links-login{
     display: flex;
     align-items: center;
@@ -89,6 +98,9 @@ $white: #F5F9F8;
     text-decoration: none;
     font-weight: bold;
     padding: .75em 1em;
+}
+.nav-links-login:hover{
+    color: black;
 }
 .nav-links::after{
     content: url('../Recursos/dropDownIcon.png');
@@ -131,6 +143,9 @@ $white: #F5F9F8;
     text-decoration: none;
     margin-left: 12px;
     padding: 13.5px 16px;
+}
+.redCube:hover{
+    color: $blanco;
 }
 .style_menu{
     font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
@@ -178,6 +193,7 @@ $white: #F5F9F8;
 }
 .nav-links-mini:hover{
     background-color: $white;
+    color: black;
 }
 .sub-menu{
     display: none;

@@ -54,6 +54,7 @@ const App = () => {
               <Card1P styleB="Margen" title="Warfame Wayback" imgsrc={card2} mensaje="Relive your journey through the Origin System" />
               <Card1P styleB="Margen" title="Set the stage as Mirage Oneiro" imgsrc={card3} mensaje="Available now on all platforms" />
             </div>
+            <div>hola</div>
           </div>
         </div>
       </main>
