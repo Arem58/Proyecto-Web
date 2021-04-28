@@ -7,10 +7,6 @@
           box-sizing: border-box;
 }
 
-body {
-  background-color: #ececec;
-}
-
 .container_content {
   margin-top: 45px;
 }
@@ -45,10 +41,20 @@ body {
 }
 
 .main_Container {
+  background-color: #ececec;
   margin-top: 38px;
 }
 
 .containerNav {
   position: relative;
+}
+
+.cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 50px 0;
+  border-bottom: 1px solid #a0a0a0;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=style.css.map */

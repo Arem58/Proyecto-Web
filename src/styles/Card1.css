@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Michroma';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/michroma/v11/PN_zRfy9qWD8fEagAPg9pTk.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sinMargen {
+  height: 264px;
+  border-top: 1px solid #212121;
+  border-bottom: 3px solid #212121;
+  position: relative;
+  background-color: #ffffff;
+  width: 30.6666666667%;
+}
+
+.Margen {
+  height: 264px;
+  border-top: 1px solid #212121;
+  border-bottom: 3px solid #212121;
+  position: relative;
+  background-color: #ffffff;
+  width: 30.6666666667%;
+  margin-left: 4%;
+}
+
+.styleA {
+  color: #212121;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 19px;
+  font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.infoContainer {
+  padding: 10px;
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageSize {
+  width: 100%;
+  border: none;
+}
+
+.sizeText {
+  font-size: 14px;
+}
+
+.readStyle {
+  color: #212121;
+  text-decoration: none;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+/*# sourceMappingURL=Card1.css.map */

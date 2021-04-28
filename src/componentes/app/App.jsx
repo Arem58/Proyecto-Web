@@ -6,13 +6,16 @@ import Slider from '../Slider/Slider'
 import Boton from '../elementos/Boton'
 import Search from '../elementos/searchBar'
 import '../../../sass/slider.css'
+// imagenes para las cartas 1
+import card1 from '../../Recursos/card1.jpg'
+import card2 from '../../Recursos/card2.jpg'
+import card3 from '../../Recursos/card3.jpg'
+import Card1P from '../elementos/Card1'
 
 const App = () => {
   const conPadd = {
     padding: '0',
     boxSizing: 'border-box',
-    marginTop: '20px',
-    marginBottom: '20px',
   }
   const colStyle = {
     alignItems: 'center',
@@ -46,7 +49,11 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div>hola</div>
+            <div className="cardContainer">
+              <Card1P styleB="sinMargen" title="TennoCon 2021" imgsrc={card1} mensaje="Get ready for July 17 with the TennoCon 2021 Digital Pack" />
+              <Card1P styleB="Margen" title="Warfame Wayback" imgsrc={card2} mensaje="Relive your journey through the Origin System" />
+              <Card1P styleB="Margen" title="Set the stage as Mirage Oneiro" imgsrc={card3} mensaje="Available now on all platforms" />
+            </div>
           </div>
         </div>
       </main>
