@@ -7,6 +7,10 @@
           box-sizing: border-box;
 }
 
+body {
+  background-color: #ececec;
+}
+
 .container_content {
   margin-top: 45px;
 }
@@ -38,5 +42,13 @@
           align-items: center;
   margin-bottom: 5px;
   padding-top: 5px;
+}
+
+.main_Container {
+  margin-top: 38px;
+}
+
+.containerNav {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */

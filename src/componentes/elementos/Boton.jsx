@@ -1,18 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import '../../styles/style.css'
+import '../../styles/boton.css'
 
-const Button = ({ title, onClick }) => (
-  <button type="button" onClick={onClick} className="boton_entrada_num">{title}</button>
+const Button = ({ title, styleB }) => (
+  <a href="https://www3.animeflv.net/anime/gakuen-babysitters" className={styleB}>{title}</a>
 )
 
 Button.propTypes = {
   title: PropTypes.string,
-  onClick: PropTypes.func.isRequired,
+  styleB: PropTypes.string,
 }
 
 Button.defaultProps = {
   title: 'Predeterminado',
+  styleB: 'boton',
 }
 
 export default Button

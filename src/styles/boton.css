@@ -1,0 +1,119 @@
+.boton {
+  display: inline-block;
+  border: 1px solid #666;
+  padding: 1px 17px;
+  margin-right: 10px;
+  background-color: #ebebeb;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 20px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.botonPc {
+  display: inline-block;
+  border: 1px solid #666;
+  padding: 1px 17px;
+  margin-right: 10px;
+  background-color: #212121;
+  border-color: #212121;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.botonPS {
+  display: inline-block;
+  border: 1px solid #666;
+  padding: 1px 17px;
+  margin-right: 10px;
+  background-color: #ebebeb;
+  color: #034169;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.botonPS:hover {
+  background-color: #034169;
+  border-color: #034169;
+  color: #fff;
+}
+
+.botonBlog {
+  display: inline-block;
+  border: 1px solid #666;
+  padding: 1px 17px;
+  margin-right: 10px;
+  background-color: #ebebeb;
+  color: #730D6A;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.botonBlog:hover {
+  background-color: #730D6A;
+  color: #fff;
+  border-color: #730D6A;
+}
+
+.botonSwitch {
+  display: inline-block;
+  border: 1px solid #666;
+  padding: 1px 17px;
+  margin-right: 10px;
+  background-color: #ebebeb;
+  color: #d30000;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.botonSwitch:hover {
+  background-color: #d30000;
+  color: #fff;
+  border-color: #d30000;
+}
+
+.botonXbox {
+  display: inline-block;
+  border: 1px solid #666;
+  padding: 1px 17px;
+  margin-right: 10px;
+  background-color: #ebebeb;
+  color: #005400;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.botonXbox:hover {
+  background-color: #005400;
+  color: #fff;
+  border-color: #005400;
+}
+/*# sourceMappingURL=boton.css.map */
