@@ -6,6 +6,9 @@ import slide2 from '../../Recursos/slide2.jpg'
 import slide3 from '../../Recursos/slide3.jpg'
 import '../../../sass/custom.css'
 import prime from '../../Recursos/prime-access-badge.png'
+import fila1 from '../../Recursos/primeAccessIcon.png'
+import fila2 from '../../Recursos/primeVaultIcon.png'
+import fila3 from '../../Recursos/buyPlatinumIcon.png'
 
 const Slider = () => {
   const img1 = {
@@ -76,6 +79,27 @@ const Slider = () => {
   const slide3h3 = 'Warframe on \nXbox Series X|S'
   // texto del h3 del slider 1
   const slide1h3 = 'Zephyr and Chroma \nPrime Vault'
+
+  // styles de la store
+  const conPadd = {
+    padding: '0',
+    boxSizing: 'border-box',
+  }
+  const colStyle = {
+    alignItems: 'center',
+    justifyContent: 'center',
+    display: 'flex',
+    padding: '0',
+    boxSizing: 'border-box',
+  }
+  const textStore1 = {
+    marginLeft: '9px',
+    color: '#c99037',
+  }
+  const textStore2 = {
+    marginLeft: '9px',
+    color: '#a1a1a1',
+  }
 
   return (
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
@@ -179,7 +203,30 @@ const Slider = () => {
         </div>
       </div>
       <div className="store">
-        hola
+        <div className="contaninerSize">
+          <div style={conPadd} className="container">
+            <div className="row">
+              <div style={colStyle} className="col">
+                <a className="aStore" href="https://www3.animeflv.net/anime/jakuchara-tomozakikun">
+                  <img src={fila1} alt="FIla 1" />
+                  <span style={textStore1}>Prime Access</span>
+                </a>
+              </div>
+              <div style={colStyle} className="col">
+                <a className="aStore" href="https://www3.animeflv.net/anime/jakuchara-tomozakikun">
+                  <img src={fila2} alt="FIla 2" />
+                  <span style={textStore2}>Prime Vault</span>
+                </a>
+              </div>
+              <div style={colStyle} className="col">
+                <a className="aStore" href="https://www3.animeflv.net/anime/jakuchara-tomozakikun">
+                  <img src={fila3} alt="FIla 2" />
+                  <span style={textStore2}>Buy Platinum</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

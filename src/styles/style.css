@@ -35,4 +35,22 @@
           box-sizing: border-box;
   height: 100%;
 }
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.aStore {
+  width: 100%;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */

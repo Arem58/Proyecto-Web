@@ -10,6 +10,9 @@ const App = () => (
     </header>
     <main className="container_content">
       <Slider />
+      <div>
+        hola
+      </div>
     </main>
   </div>
 )
