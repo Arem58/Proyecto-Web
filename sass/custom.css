@@ -13,8 +13,26 @@ h3, .h3 {
   font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
 }
 
+.h3black {
+  font-weight: bold !important;
+  font-size: 20px !important;
+  color: black !important;
+  white-space: pre-wrap;
+}
+
+.h3white {
+  font-weight: bold !important;
+  font-size: 20px !important;
+  color: white !important;
+  white-space: pre-wrap;
+}
+
 p {
   font-family: "Open Sans", sans-serif;
+}
+
+.shadow1 {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-item div {
