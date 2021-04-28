@@ -29,25 +29,32 @@ const Slider = () => {
     backgroundColor: '#212121',
   }
   const slide2Pos = {
-    marginTop: '50px',
+    marginTop: '70px',
     width: '500px',
     zIndex: '3',
   }
-  const pMar = {
+  const slide3Pos = {
+    marginTop: '40px',
+    width: '500px',
+    zIndex: '3',
+  }
+  const pMarB = {
     marginBottom: '20px',
     color: 'black',
     fontSize: '16px',
     lineHeight: '1.25em',
-    textShadowColor: 'rgba(0, 0, 0, 0.1)',
-    textShadowOffset: { width: -1, height: 1 },
-    textShadowRadius: 10,
   }
-  const h3slide2 = {
+  const pMarW = {
+    marginBottom: '20px',
+    color: 'white',
+    fontSize: '16px',
+    lineHeight: '1.25em',
+  }
+  const h3Margin = {
     marginBottom: '15px',
-    fontWeight: 'bold',
-    fontSize: '20px',
-    color: 'black',
   }
+  // texto del h3 del slider 3
+  const slide3h3 = 'Warframe on \nXbox Series X|S'
 
   return (
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
@@ -71,8 +78,8 @@ const Slider = () => {
             <a className="a-container" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
               <div className="izquierda">
                 <div style={slide2Pos}>
-                  <h3 style={h3slide2}>8 Year Anniversary</h3>
-                  <p style={pMar}>Log in now to get the Rhino Dex Skin and more</p>
+                  <h3 style={h3Margin} className="h3black">8 Year Anniversary</h3>
+                  <p className="shadow1" style={pMarB}>Log in now to get the Rhino Dex Skin and more</p>
                   <a className="redButon" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
                     Learn More
                   </a>
@@ -82,8 +89,18 @@ const Slider = () => {
           </div>
         </div>
         <div className="carousel-item" style={img2}>
-          <div style={{ style: "position: 'absolute'" }}>
-            hola
+          <div className="contaninerSize">
+            <a className="a-container" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
+              <div className="izquierda">
+                <div style={slide3Pos}>
+                  <h3 style={h3Margin} className="h3white">{slide3h3}</h3>
+                  <p className="shadow1" style={pMarW}>Start playing today</p>
+                  <a className="redButon" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
         <div className="carousel-item">
