@@ -1,8 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react'
 import '../../../node_modules/bootstrap/dist/js/bootstrap.min'
 import slide2 from '../../Recursos/slide2.jpg'
 import slide3 from '../../Recursos/slide3.jpg'
 import '../../../sass/custom.css'
+import prime from '../../Recursos/prime-access-badge.png'
 
 const Slider = () => {
   const img1 = {
@@ -28,13 +31,23 @@ const Slider = () => {
   const postionP = {
     backgroundColor: '#212121',
   }
+  const slide1Pos = {
+    marginTop: '280px',
+    width: '430px',
+    zIndex: '3',
+  }
   const slide2Pos = {
-    marginTop: '70px',
+    marginTop: '50px',
     width: '500px',
     zIndex: '3',
   }
   const slide3Pos = {
-    marginTop: '40px',
+    marginTop: '20px',
+    width: '500px',
+    zIndex: '3',
+  }
+  const slide5Pos = {
+    marginTop: '70px',
     width: '500px',
     zIndex: '3',
   }
@@ -53,8 +66,16 @@ const Slider = () => {
   const h3Margin = {
     marginBottom: '15px',
   }
+  const imgSlider5 = {
+    marginBottom: '20px',
+    minWidth: 0,
+    border: 'none',
+  }
+
   // texto del h3 del slider 3
   const slide3h3 = 'Warframe on \nXbox Series X|S'
+  // texto del h3 del slider 1
+  const slide1h3 = 'Zephyr and Chroma \nPrime Vault'
 
   return (
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
@@ -69,13 +90,45 @@ const Slider = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
+          <video className="video-fluid" src="//n9e5v4d8.ssl.hwcdn.net/repos/chromazephyr.webm" autoPlay loop muted style={vid2} />
+          <div className="textspace">
+            <div className="contaninerSize">
+              <a className="a-container" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e" />
+              <div className="derecha">
+                <div style={slide1Pos}>
+                  <h3 style={h3Margin} className="h3white shadow2">{slide1h3}</h3>
+                  <p className="shadow2" style={pMarW}>Get instant access today!</p>
+                  <a className="redButon" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="carousel-item">
           <video className="video-fluid" autoPlay loop muted style={vid1}>
             <source src="http://n9e5v4d8.ssl.hwcdn.net/images/promo/tempestarii/info/keyart.webm" type="video/webm" />
           </video>
+          <div className="textspace">
+            <div className="contaninerSize">
+              <a className="a-container" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e" />
+              <div className="derecha">
+                <div style={slide2Pos}>
+                  <h3 style={h3Margin} className="h3white">CALL OF THE TEMPESTARII</h3>
+                  <p className="shadow1" style={pMarW}>AVAILABLE NOW ON ALL PLATFORMS</p>
+                  <a className="redButon" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="carousel-item" style={img1}>
-          <div className="contaninerSize">
-            <a className="a-container" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
+          <div className="textspace">
+            <div className="contaninerSize">
+              <a className="a-container" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e" />
               <div className="izquierda">
                 <div style={slide2Pos}>
                   <h3 style={h3Margin} className="h3black">8 Year Anniversary</h3>
@@ -85,12 +138,13 @@ const Slider = () => {
                   </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
         <div className="carousel-item" style={img2}>
-          <div className="contaninerSize">
-            <a className="a-container" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
+          <div className="textspace">
+            <div className="contaninerSize">
+              <a className="a-container" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e" />
               <div className="izquierda">
                 <div style={slide3Pos}>
                   <h3 style={h3Margin} className="h3white">{slide3h3}</h3>
@@ -100,17 +154,32 @@ const Slider = () => {
                   </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
         <div className="carousel-item">
           <video className="video-fluid" autoPlay loop muted style={vid2}>
             <source src="http://n9e5v4d8.ssl.hwcdn.net/repos/WF_OctaviaPrimeAccess_WebNews_3840x1040.webm" type="video/webm" />
           </video>
+          <div className="textspace">
+            <div className="contaninerSize">
+              <a className="a-container" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e" />
+              <div className="derecha">
+                <div style={slide5Pos}>
+                  <img src={prime} alt="Slider de prime acces" style={imgSlider5} />
+                  <h3 style={h3Margin} className="h3white">Octavia Prime Access</h3>
+                  <p className="shadow1" style={pMarW}>Strike up a symphony of destruction with Octavia Prime!</p>
+                  <a className="redButon" href="https://www3.animeflv.net/anime/fumetsu-no-anata-e">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="carousel-item">
-          <video className="video-fluid" src="http://n9e5v4d8.ssl.hwcdn.net/repos/WF_BansheeMirage_PrimeVault_Rotator_1920x520.webm" autoPlay loop muted style={vid2} />
-        </div>
+      </div>
+      <div className="store">
+        hola
       </div>
     </div>
   )

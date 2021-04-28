@@ -23,4 +23,8 @@
 }
 .contaninerSize{
     max-width: 1140px;
+    position: relative;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+    height: 100%;
 }

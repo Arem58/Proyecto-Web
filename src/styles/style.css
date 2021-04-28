@@ -29,5 +29,10 @@
 
 .contaninerSize {
   max-width: 1140px;
+  position: relative;
+  margin: 0 auto !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
