@@ -2,16 +2,20 @@
   position: fixed;
   top: 100px;
   z-index: 7;
-  width: 94px;
   height: auto;
-  text-transform: uppercase;
   font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .buildsContainer {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
-  height: 100%;
+  width: 94px;
   padding: 8px 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,5 +56,69 @@ hr {
   border-top: 1px solid #E1E1E1;
   margin-top: 12px;
   margin-bottom: 5px;
+}
+
+.textDesing {
+  text-align: center !important;
+  text-transform: uppercase !important;
+  font-family: "Open Sans", sans-serif;
+  font: inherit;
+  white-space: pre-wrap;
+  font-size: 10px !important;
+}
+
+.containBar {
+  width: 60px;
+  height: 7px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.barra {
+  width: 100%;
+  height: 7px;
+}
+
+.divisor {
+  height: 10px;
+  width: 1px;
+  position: absolute;
+  background-color: black;
+  top: -2px;
+}
+
+.containerInteractuable {
+  background-color: #212121;
+  height: 531px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.styleP {
+  color: white;
+  font-size: 10px;
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+  text-transform: uppercase;
+  width: 97px;
+  position: absolute;
+  left: 53px;
+  top: 49%;
+}
+
+.triangle1 {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 15px solid #212121;
+}
+
+.triangle2 {
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #212121;
 }
 /*# sourceMappingURL=Build.css.map */
