@@ -2,6 +2,7 @@ import React from 'react'
 import '../../styles/style.css'
 import Nav from '../Navbar/Navbar'
 import Slider from '../Slider/Slider'
+import Build from '../BuildNav/Build'
 
 const App = () => (
   <div>
@@ -9,6 +10,7 @@ const App = () => (
       <Nav />
     </header>
     <main className="container_content">
+      <Build />
       <Slider />
       <div>
         hola
