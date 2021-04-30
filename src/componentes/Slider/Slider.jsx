@@ -29,7 +29,7 @@ const Slider = () => {
     width: '100%',
   }
   const vid2 = {
-    height: '100%',
+    height: '101%',
   }
   const postionP = {
     backgroundColor: '#212121',
@@ -102,7 +102,7 @@ const Slider = () => {
   }
 
   return (
-    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-indicators">
         <div style={postionP}>
           <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" />

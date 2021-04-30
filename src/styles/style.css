@@ -49,12 +49,14 @@
   position: relative;
 }
 
-.cardContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0 0 50px 0;
-  border-bottom: 1px solid #a0a0a0;
-  margin-bottom: 40px;
+.aStyleContent {
+  margin-left: 10%;
+  color: #d30000;
+  text-decoration: none;
+}
+
+.aStyleContent:hover {
+  color: #212121;
+  font-weight: normal;
 }
 /*# sourceMappingURL=style.css.map */

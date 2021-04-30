@@ -4,7 +4,7 @@ const Menu = [
   {
     title: 'ENGLISH',
     url: '#',
-    cName: 'nav-links-right',
+    cName: 'nav-links',
     Menu: Languaje,
     key: '1',
   },

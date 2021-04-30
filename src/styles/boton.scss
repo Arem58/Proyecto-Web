@@ -104,3 +104,28 @@
     color: #fff;
     border-color: #005400;
 }
+.stylebutton2{
+    background: #212121;
+    border: none;
+    color: #fff ;
+    font-size: 14px;
+    font-weight: lighter;
+    display: inline-block;
+    padding: 0 35px;
+    height: 38px;
+    line-height: 38px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
+    word-spacing: 5px;
+    transform: skewX(-25deg);
+}
+.textsTyle{
+    display: block;
+    transform: skewX(25deg);
+}
+.centerBu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

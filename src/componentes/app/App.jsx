@@ -2,15 +2,15 @@ import React from 'react'
 import '../../styles/style.css'
 import Nav from '../Navbar/Navbar'
 import Slider from '../Slider/Slider'
-// import Build from '../BuildNav/Build'
+import Build from '../BuildNav/Build'
 import Boton from '../elementos/Boton'
 import Search from '../elementos/searchBar'
 import '../../../sass/slider.css'
 // imagenes para las cartas 1
-import card1 from '../../Recursos/card1.jpg'
-import card2 from '../../Recursos/card2.jpg'
-import card3 from '../../Recursos/card3.jpg'
-import Card1P from '../elementos/Card1'
+import Card1P from '../Card/Card1'
+// imagenes para las cartas 2
+import Card2P from '../Card/Card2'
+import Boton2 from '../elementos/Boton2'
 
 const App = () => {
   const conPadd = {
@@ -30,6 +30,7 @@ const App = () => {
         <Nav />
       </header>
       <main className="container_content">
+        <Build />
         <Slider />
         <div className="main_Container">
           <div className="contaninerSize">
@@ -49,12 +50,20 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div className="cardContainer">
-              <Card1P styleB="sinMargen" title="TennoCon 2021" imgsrc={card1} mensaje="Get ready for July 17 with the TennoCon 2021 Digital Pack" />
-              <Card1P styleB="Margen" title="Warfame Wayback" imgsrc={card2} mensaje="Relive your journey through the Origin System" />
-              <Card1P styleB="Margen" title="Set the stage as Mirage Oneiro" imgsrc={card3} mensaje="Available now on all platforms" />
+            <Card1P />
+            <div>
+              <div style={conPadd} className="container">
+                <div className="row">
+                  <div className="col-8">
+                    <Card2P />
+                    <Boton2 title="Load 10 More" />
+                  </div>
+                  <div className="col-4">
+                    <a className="aStyleContent" href="https://www3.animeflv.net/anime/kamisama-ni-natta-hi">Tweets by @PlayWarframe</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>hola</div>
           </div>
         </div>
       </main>

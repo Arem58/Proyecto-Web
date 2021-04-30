@@ -44,6 +44,7 @@ const Build = () => {
   }
   const posicion = {
     transform: `translate(${builsPos}px`,
+    transition: 'transform 0.5s',
   }
   const handleKeyDown = (event) => {
     event.preventDefault()
@@ -53,17 +54,29 @@ const Build = () => {
       setbuilsPos(0)
     }
   }
+  const imgSize1 = {
+    width: '44px',
+    height: '44px',
+  }
+  const imgSize2 = {
+    width: '53px',
+    height: '51px',
+  }
+  const alturaI = {
+    height: '489px',
+  }
   const text = 'Prime Vault: \nZephyr & \nChroma'
+  const text2 = 'TENNOGEN: \nUPDATE 30.1.0'
   return (
     <div style={posicion} className="mainContainer">
       <div className="buildsContainer">
         <div>
           <div className="aContainer">
             <a className="aSize" href="https://www3.animeflv.net/anime/mushoku-tensei-isekai-ittara-honki-dasu">
-              <img className="imgSize" src={PC} alt="Imagen de pc" />
+              <img style={imgSize1} className="imgCenter" src={PC} alt="Imagen de pc" />
             </a>
           </div>
-          <div style={stylePC} className="textDesing">{text}</div>
+          <div style={stylePC} className="textDesing">{text2}</div>
           <div className="containBar">
             <div className="barra" style={barraPC} />
             <div className="divisor" style={position1} />
@@ -74,7 +87,7 @@ const Build = () => {
         <div>
           <div className="aContainer">
             <a className="aSize" href="https://www3.animeflv.net/anime/mushoku-tensei-isekai-ittara-honki-dasu">
-              <img className="imgSize" src={Xbox} alt="Imagen de pc" />
+              <img style={imgSize2} className="imgCenter" src={Xbox} alt="Imagen de pc" />
             </a>
           </div>
           <div style={styleXbox} className="textDesing">{text}</div>
@@ -89,7 +102,7 @@ const Build = () => {
         <div>
           <div className="aContainer">
             <a className="aSize" href="https://www3.animeflv.net/anime/mushoku-tensei-isekai-ittara-honki-dasu">
-              <img className="imgSize" src={PS4} alt="Imagen de pc" />
+              <img style={imgSize2} className="imgCenter" src={PS4} alt="Imagen de pc" />
             </a>
           </div>
           <div style={stylePS4} className="textDesing">{text}</div>
@@ -104,7 +117,7 @@ const Build = () => {
         <div>
           <div className="aContainer">
             <a className="aSize" href="https://www3.animeflv.net/anime/mushoku-tensei-isekai-ittara-honki-dasu">
-              <img className="imgSize" src={Switch} alt="Imagen de pc" />
+              <img className="imgCenter" src={Switch} alt="Imagen de pc" />
             </a>
           </div>
           <div style={styleSwitch} className="textDesing">{text}</div>
@@ -118,7 +131,7 @@ const Build = () => {
       </div>
       <div className="interactuable" onClick={handleKeyDown} role="button">
         <div className="triangle1" />
-        <div className="containerInteractuable">
+        <div style={alturaI} className="containerInteractuable">
           <p className="styleP">Warframe Builds</p>
         </div>
         <div className="triangle2" />

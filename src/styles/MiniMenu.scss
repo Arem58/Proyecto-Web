@@ -12,12 +12,14 @@ $gris: rgba(242, 242, 242, 0.9);
     background-color: $gris;
     box-shadow: none;
     border-top: 3px solid $rojo2;
+    box-sizing: border-box;
     min-width: 12em;
     z-index: 1;
 }
 .listaMenu{
     font-weight: normal;
     list-style: none;
+    box-sizing: border-box;
     border-top: 1px solid;
 }
 .nav-links-mini{
@@ -28,6 +30,7 @@ $gris: rgba(242, 242, 242, 0.9);
     text-decoration: none;
     padding: .75em 1em;
     color: black;
+    box-sizing: border-box;
 }
 ul{
     margin: 0;

@@ -13,21 +13,23 @@
 }
 
 .sinMargen {
-  height: 264px;
+  height: 286px;
   border-top: 1px solid #212121;
   border-bottom: 3px solid #212121;
   position: relative;
   background-color: #ffffff;
   width: 30.6666666667%;
+  margin-right: 0;
 }
 
 .Margen {
-  height: 264px;
+  height: 286px;
   border-top: 1px solid #212121;
   border-bottom: 3px solid #212121;
   position: relative;
   background-color: #ffffff;
   width: 30.6666666667%;
+  margin-right: 0;
   margin-left: 4%;
 }
 
@@ -41,29 +43,66 @@
   margin: 0 0 10px 0;
 }
 
+.styleA:hover {
+  color: #212121;
+}
+
 .infoContainer {
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .imageContainer {
   position: relative;
-  overflow: hidden;
 }
 
 .imageSize {
-  width: 100%;
+  max-width: 100%;
   border: none;
 }
 
 .sizeText {
   font-size: 14px;
+  font-family: "Open Sans", sans-serif !important;
+  line-height: 1;
+  color: #686868;
+  color: #686868;
+}
+
+.sizeTextP {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif !important;
+  line-height: 1;
+  padding-right: 40px;
+  color: #686868;
 }
 
 .readStyle {
   color: #212121;
   text-decoration: none;
   position: absolute;
-  right: 20px;
-  bottom: 10px;
+  font-family: "Open Sans", sans-serif !important;
+  right: 18px;
+  bottom: 6px;
+  font-size: 14px;
+}
+
+.readStyle:hover {
+  color: #212121;
+}
+
+.cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 50px 0;
+  border-bottom: 1px solid #a0a0a0;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=Card1.css.map */

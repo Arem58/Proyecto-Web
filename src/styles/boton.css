@@ -120,4 +120,40 @@
   color: #fff;
   border-color: #005400;
 }
+
+.stylebutton2 {
+  background: #212121;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: lighter;
+  display: inline-block;
+  padding: 0 35px;
+  height: 38px;
+  line-height: 38px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
+  word-spacing: 5px;
+  -webkit-transform: skewX(-25deg);
+          transform: skewX(-25deg);
+}
+
+.textsTyle {
+  display: block;
+  -webkit-transform: skewX(25deg);
+          transform: skewX(25deg);
+}
+
+.centerBu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=boton.css.map */

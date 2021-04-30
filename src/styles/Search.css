@@ -13,12 +13,14 @@
 
 .searchBar {
   font-family: "Michroma", "Open Sans", Helvetica, sans-serif;
-  word-spacing: 5px;
   width: 300px;
   height: 30px;
   background-color: #ffffff;
   border: 1px solid #d9d9d9;
+  padding: 6px 10px;
   border-radius: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .searchPos {
