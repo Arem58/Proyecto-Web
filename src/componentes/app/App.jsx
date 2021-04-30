@@ -11,6 +11,8 @@ import Card1P from '../Card/Card1'
 // imagenes para las cartas 2
 import Card2P from '../Card/Card2'
 import Boton2 from '../elementos/Boton2'
+// Social media
+import Social from '../Social/Social'
 
 const App = () => {
   const conPadd = {
@@ -51,7 +53,7 @@ const App = () => {
               </div>
             </div>
             <Card1P />
-            <div>
+            <div style={{ marginBottom: '50px' }}>
               <div style={conPadd} className="container">
                 <div className="row">
                   <div className="col-8">
@@ -65,6 +67,11 @@ const App = () => {
               </div>
             </div>
           </div>
+          <footer>
+            <div className="contaninerSize">
+              <Social />
+            </div>
+          </footer>
         </div>
       </main>
     </div>
