@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../../sass/slider.css'
 import '../../styles/Card2.css'
-import Menu from './Card1Menu'
+import Menu from './Card2Menu'
 
 const Button = () => {
   const conPadd = {
