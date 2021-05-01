@@ -5,7 +5,7 @@ import Menu from './socialMenu'
 const Social = () => {
   const socialContainer = {
     marginTop: '5px',
-    marginBottom: '10px',
+    marginBottom: '13px',
     textAlign: 'center',
   }
   /*
