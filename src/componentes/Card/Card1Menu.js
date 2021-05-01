@@ -1,16 +1,25 @@
 import card1 from '../../Recursos/card1.jpg'
-import card2 from '../../Recursos/card2.jpg'
+import card2 from '../../Recursos/607de9d603966ff59f2dd3bf7aa8b81a_500x235.png'
 import card3 from '../../Recursos/card4.jpg'
 
 const Menu = [
+  {
+    title: 'Devstream 154',
+    url: 'https://www3.animeflv.net/anime/kakushigoto',
+    mensaje: 'Yareli, Sisters of Parvos and more! A look at all things Update 30.5!',
+    mensajeStyle: 'sizeTextP',
+    cName: 'sinMargen',
+    img: card2,
+    key: '1',
+  },
   {
     title: 'TennoGen Round 20: Part 1',
     url: 'https://www3.animeflv.net/anime/kakushigoto',
     mensaje: 'New Tenno-made Warframe, Weapon, Operator Customizations and more available on PC!',
     mensajeStyle: 'sizeText',
-    cName: 'sinMargen',
+    cName: 'Margen',
     img: card3,
-    key: '1',
+    key: '2',
   },
   {
     title: 'TennoCon 2021',
@@ -19,15 +28,6 @@ const Menu = [
     mensajeStyle: 'sizeTextP',
     cName: 'Margen',
     img: card1,
-    key: '2',
-  },
-  {
-    title: 'Warfame Wayback',
-    url: 'https://www3.animeflv.net/anime/kakushigoto',
-    mensaje: 'Relive your journey through the Origin System',
-    mensajeStyle: 'sizeTextP',
-    cName: 'Margen',
-    img: card2,
     key: '3',
   },
 ]
