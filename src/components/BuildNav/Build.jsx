@@ -2,10 +2,10 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react'
 import '../../styles/Build.css'
-import PC from '../../Recursos/pcGrey.png'
-import Xbox from '../../Recursos/xb1.png'
-import PS4 from '../../Recursos/ps4.png'
-import Switch from '../../Recursos/switch.png'
+import PC from '../../assets/pcGrey.png'
+import Xbox from '../../assets/xb1.png'
+import PS4 from '../../assets/ps4.png'
+import Switch from '../../assets/switch.png'
 
 const Build = () => {
   const [builsPos, setbuilsPos] = React.useState(0)

@@ -27,13 +27,13 @@ const Community = [
     title: 'WARFRAME CREATORS',
     url: '#',
     cName: 'inner-nav-links',
-    key: '4',
+    key: '5',
   },
   {
     title: 'WARFRAME VOLUNTEERS',
     url: '#',
     cName: 'inner-nav-links',
-    key: '4',
+    key: '6',
   },
 ]
 

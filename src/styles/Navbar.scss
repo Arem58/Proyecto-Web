@@ -94,7 +94,7 @@ $white: #F5F9F8;
     color: black;
 }
 .nav-links::after{
-    content: url('../Recursos/dropDownIcon.png');
+    content: url('../assets/dropDownIcon.png');
     display: block;
     height: 17px;
     width: 17px;
@@ -102,7 +102,7 @@ $white: #F5F9F8;
     margin-left: 5px;
 }
 .nav-links-right::after{
-    content: url('../Recursos/dropDownIcon.png');
+    content: url('../assets/dropDownIcon.png');
     display: block;
     height: 17px;
     width: 17px;
@@ -110,7 +110,7 @@ $white: #F5F9F8;
     border: none;
 }
 .nav-links-login::after{
-    content: url('../Recursos/dropDownIcon.png');
+    content: url('../assets/dropDownIcon.png');
     display: block;
     height: 17px;
     width: 17px;

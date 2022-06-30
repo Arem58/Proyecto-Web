@@ -2,7 +2,7 @@ import React from 'react'
 import Menu from './Card1Menu'
 import '../../styles/Card1.css'
 
-const Card = () => (
+const Card1P = () => (
   <div className="cardContainer">
     {Menu.map((item) => (
       <div className={item.cName}>
@@ -23,4 +23,4 @@ const Card = () => (
   </div>
 )
 
-export default Card
+export default Card1P

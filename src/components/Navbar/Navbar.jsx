@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../Recursos/headerLogo.png'
+import Logo from '../../assets/headerLogo.png'
 import Menu from './Menu'
 import Options from './GameOp'
 import Mini from './MiniMenus/MiniMenu'

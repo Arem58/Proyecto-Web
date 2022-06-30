@@ -27,19 +27,19 @@ const Community = [
     title: 'PROMO CODES',
     url: '#',
     cName: 'inner-nav-links',
-    key: '4',
+    key: '5',
   },
   {
     title: 'STARTER PACK',
     url: '#',
     cName: 'inner-nav-links',
-    key: '4',
+    key: '6',
   },
   {
     title: 'SUPPORTER PACKS',
     url: '#',
     cName: 'inner-nav-links',
-    key: '4',
+    key: '7',
   },
 ]
 

@@ -1,14 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react'
-import '../../../node_modules/bootstrap/dist/js/bootstrap.min'
-import slide2 from '../../Recursos/slide2.jpg'
-import slide3 from '../../Recursos/slide3.jpg'
+import 'bootstrap/dist/js/bootstrap.min'
+import slide2 from '../../assets/slide2.jpg'
+import slide3 from '../../assets/slide3.jpg'
 import '../../../sass/slider.css'
-import prime from '../../Recursos/prime-access-badge.png'
-import fila1 from '../../Recursos/primeAccessIcon.png'
-import fila2 from '../../Recursos/primeVaultIcon.png'
-import fila3 from '../../Recursos/buyPlatinumIcon.png'
+import prime from '../../assets/prime-access-badge.png'
+import fila1 from '../../assets/primeAccessIcon.png'
+import fila2 from '../../assets/primeVaultIcon.png'
+import fila3 from '../../assets/buyPlatinumIcon.png'
 
 const Slider = () => {
   const img1 = {

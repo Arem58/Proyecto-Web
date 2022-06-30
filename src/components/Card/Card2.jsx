@@ -3,7 +3,7 @@ import '../../../sass/slider.css'
 import '../../styles/Card2.css'
 import Menu from './Card2Menu'
 
-const Button = () => {
+const Card2P = () => {
   const conPadd = {
     padding: '0',
     boxSizing: 'border-box',
@@ -51,4 +51,4 @@ const Button = () => {
   )
 }
 
-export default Button
+export default Card2P

@@ -1,10 +1,10 @@
-import fb from '../../Recursos/fb.png'
-import twitter from '../../Recursos/twitter.png'
-import yt from '../../Recursos/yt.png'
-import ig from '../../Recursos/insta.png'
-import twitch from '../../Recursos/twitch.png'
-import reddit from '../../Recursos/reddit.png'
-import discord from '../../Recursos/discord.png'
+import fb from '../../assets/fb.png'
+import twitter from '../../assets/twitter.png'
+import yt from '../../assets/yt.png'
+import ig from '../../assets/insta.png'
+import twitch from '../../assets/twitch.png'
+import reddit from '../../assets/reddit.png'
+import discord from '../../assets/discord.png'
 
 const Menu = [
   {

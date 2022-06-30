@@ -1,6 +1,6 @@
-import card1 from '../../Recursos/card1.jpg'
-import card2 from '../../Recursos/607de9d603966ff59f2dd3bf7aa8b81a_500x235.png'
-import card3 from '../../Recursos/card4.jpg'
+import card1 from '../../assets/card1.jpg'
+import card2 from '../../assets/607de9d603966ff59f2dd3bf7aa8b81a_500x235.png'
+import card3 from '../../assets/card4.jpg'
 
 const Menu = [
   {

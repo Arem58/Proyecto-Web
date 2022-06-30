@@ -1,13 +1,13 @@
-import card2P1 from '../../Recursos/card2.jpg'
-import card2P2 from '../../Recursos/card2P1.jpg'
-import card2P3 from '../../Recursos/card2P3.jpg'
-import card2P4 from '../../Recursos/card2P4.jpg'
-import card2P5 from '../../Recursos/card2P5.jpg'
-import card2P6 from '../../Recursos/card2P6.jpg'
-import card2P7 from '../../Recursos/card2P7.jpg'
-import card2P8 from '../../Recursos/card2P8.jpg'
-import card2P9 from '../../Recursos/card3.jpg'
-import card2P10 from '../../Recursos/card2P2.jpg'
+import card2P1 from '../../assets/card2.jpg'
+import card2P2 from '../../assets/card2P1.jpg'
+import card2P3 from '../../assets/card2P3.jpg'
+import card2P4 from '../../assets/card2P4.jpg'
+import card2P5 from '../../assets/card2P5.jpg'
+import card2P6 from '../../assets/card2P6.jpg'
+import card2P7 from '../../assets/card2P7.jpg'
+import card2P8 from '../../assets/card2P8.jpg'
+import card2P9 from '../../assets/card3.jpg'
+import card2P10 from '../../assets/card2P2.jpg'
 
 const Menu = [
   {
@@ -35,7 +35,7 @@ const Menu = [
     mensaje: 'Get instant access today!',
     cName: 'Margen',
     img: card2P10,
-    key: '2',
+    key: '3',
   },
   {
     title: '8 Year Anniversary',
@@ -44,7 +44,7 @@ const Menu = [
     mensaje: 'Log in now to get the Rhino Dex Skin and more',
     cName: 'Margen',
     img: card2P3,
-    key: '3',
+    key: '4',
   },
   {
     title: 'How to get your Railjack',
@@ -53,7 +53,7 @@ const Menu = [
     mensaje: 'Climb aboard with this helpful guide',
     cName: 'sinMargen',
     img: card2P4,
-    key: '4',
+    key: '5',
   },
   {
     title: 'Warframe on Xbox Series X|S',
@@ -62,7 +62,7 @@ const Menu = [
     mensaje: 'Start playing today',
     cName: 'Margen',
     img: card2P5,
-    key: '5',
+    key: '6',
   },
   {
     title: 'CALL OF THE TEMPESTARII',
@@ -71,7 +71,7 @@ const Menu = [
     mensaje: 'Available now on all platforms!',
     cName: 'Margen',
     img: card2P6,
-    key: '6',
+    key: '7',
   },
   {
     title: 'SET THE STAGE AS MIRAGE ONEIRO',
@@ -80,7 +80,7 @@ const Menu = [
     mensaje: 'Available now on all platforms',
     cName: 'Margen',
     img: card2P9,
-    key: '10',
+    key: '8',
   },
   {
     title: 'Complete Your Spring Look',
