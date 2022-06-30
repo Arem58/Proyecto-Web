@@ -104,6 +104,7 @@ module.exports = {
 
     // development server configuration
     devServer: {
+        contentBase: './dist',
         port: 8088,
         historyApiFallback: true,
     },
